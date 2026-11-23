@@ -1,0 +1,37 @@
+{
+  "name": "opencode-eyesight-v2",
+  "version": "1.0.0",
+  "description": "OpenCode plugin that lets text-only models work with pasted images through a vision-capable model. Ported to the OpenCode V2 plugin API.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "vision",
+    "image",
+    "accessibility"
+  ],
+  "license": "MIT",
+  "author": "Arthur Rogado <arthurrogadoreis@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurrogado/opencode-eyesight-v2.git"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.3.0"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.3.0"
+  },
+  "scripts": {
+    "check": "node --check src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
