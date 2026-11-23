@@ -8,6 +8,16 @@ Ported to the **OpenCode V2 plugin API** (`@opencode/plugin`).
 
 ## Installation
 
+```bash
+npm install -g opencode-eyesight-v2
+```
+
+or with OpenCode:
+
+```bash
+opencode plugin add opencode-eyesight-v2
+```
+
 Add the plugin to your OpenCode config with a vision-capable model:
 
 ```jsonc
